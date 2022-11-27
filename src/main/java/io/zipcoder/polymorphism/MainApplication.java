@@ -7,6 +7,7 @@ public class MainApplication {
         Scanner scanner = new Scanner(System.in);
         System.out.println("How many pets do you have?");
         Integer numOfPets = scanner.nextInt();
-        System.out.println("Type of first");
+        System.out.println();
+
     }
 }
