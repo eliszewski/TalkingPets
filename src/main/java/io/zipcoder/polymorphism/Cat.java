@@ -1,6 +1,6 @@
 package io.zipcoder.polymorphism;
 
-public class Cat extends Pet<Cat>{
+public class Cat extends Pet{
     public Cat(String name) {
         super(name);
     }
@@ -13,4 +13,6 @@ public class Cat extends Pet<Cat>{
     public String speak() {
         return "Meow Meow...";
     }
+
+
 }
